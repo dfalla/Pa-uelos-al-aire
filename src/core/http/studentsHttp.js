@@ -2,11 +2,15 @@ import Http from "../../common/http";
 
 const endpoint = `http://localhost:3001/alumnos`;
 
-// const endpoint = 'https://reqres.in/api/users?per_page=12';
+const endpoint2 = 'https://reqres.in/api/users?per_page=12';
 
 
 const getAll = () => {
     return Http.get(endpoint);
+}
+
+const getAll2 = () =>{
+    return Http.get(endpoint2);
 }
 
 const getOne = (id) => {
@@ -27,6 +31,7 @@ const remove = (id) => {
 
 const StudentsHttp = {
     getAll,
+    getAll2,
     getOne,
     create,
     update,

@@ -66,7 +66,7 @@ const SignIn = () => {
                 <input       
                         type="text"
                         name='email'
-                        placeholder='fenan.03.95@gmail.com' 
+                        placeholder='email' 
                         autoComplete="off"
                         className={ `mt-2 form-control ${ touched.email && errors.email ? "is-invalid" : "" }`}
                         {...getFieldProps('email')}
@@ -85,7 +85,7 @@ const SignIn = () => {
                 <input
                   type="password"
                   name='password'
-                  placeholder="Fabrizio#12" 
+                  placeholder="password" 
                   className={ `mt-2 form-control ${ touched.password && errors.password ? "is-invalid" : "" }` }
                   {...getFieldProps('password')}
                 />

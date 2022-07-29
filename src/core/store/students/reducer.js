@@ -12,7 +12,6 @@ export const studentsSlice = createSlice({
     initialState,
     reducers: {
         addStudent: ( state, action )=>{
-            console.log(state);
             return{
                 ...state,
                 params: [
