@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "email": "fenan.03.95@gmail.com",
+      "password": "$2a$10$.MDV6Nt2RBUetyL.QbYIfePcn3DzG58vo5NXSZ2p0yk33/QuPevX6",
+      "nombre": "Daniel",
+      "apellido": "Falla",
+      "id": 1
+    }
+  ],
+  "step-1": {
+    "plans": [
+      {
+        "id": "M",
+        "label": "Mensual S/ 12.99"
+      },
+      {
+        "id": "S",
+        "label": "Semestral S/ 60.00"
+      },
+      {
+        "id": "A",
+        "label": "Anual S/ 120.00"
+      }
+    ],
+    "accounts": [
+      {
+        "id": "CT11111",
+        "label": "192-************-98"
+      },
+      {
+        "id": "CT22222",
+        "label": "194-************-45"
+      },
+      {
+        "id": "CT33333",
+        "label": "499-************-62"
+      }
+    ]
+  },
+  "alumnos": [
+    {
+      "dni": "98765432",
+      "nombre": "Daniela",
+      "apellido": "Ruiza",
+      "id": 1
+    },
+    {
+      "dni": "87654321",
+      "nombre": "Mariela",
+      "apellido": "Ruiz",
+      "id": 2
+    },
+    {
+      "dni": "96325874",
+      "nombre": "Stephano",
+      "apellido": "Severino",
+      "id": 3
+    },
+    {
+      "dni": "74125896",
+      "nombre": "Abril",
+      "apellido": "Tello",
+      "id": 4
+    },
+    {
+      "dni": "45632198",
+      "nombre": "Jackeline",
+      "apellido": "Manayay",
+      "id": 5
+    },
+    {
+      "dni": "98745632",
+      "nombre": "Nicole",
+      "apellido": "Sin Apellido",
+      "id": 6
+    },
+    {
+      "dni": "12345678",
+      "nombre": "Daniel",
+      "apellido": "Falla",
+      "id": 7
+    },
+    {
+      "dni": "98745632",
+      "nombre": "Hally",
+      "apellido": "Falla",
+      "id": 8
+    },
+    {
+      "dni": "98745632",
+      "nombre": "Winny",
+      "apellido": "Aldape",
+      "id": 9
+    }
+  ]
+}
